@@ -1,0 +1,22 @@
+<style>
+	h1{
+		color: purple;
+	}	
+</style>
+<h1>Welcome to the dogpark, <%= person %></h1>
+
+<p>I see that you are <%= age %> years old</p>
+
+<% if(age > 21) { %>
+	<h4>COME ON IN, HAVE A DRINK AT THE DOGPARK</h4>
+	<p>asdasd</p>
+	alksjdlkasjdlkasjdlkas
+	sakldj
+<%} else {%>
+	<h4>YOU CANNOT COME IN, YOU ARE TOO YOUNG</h4>
+<% }%>
+
+
+<% for(var i = 0; i < 10; i++ ) {%>
+	<li>HELLO: <%= i %></li>
+<% }%>

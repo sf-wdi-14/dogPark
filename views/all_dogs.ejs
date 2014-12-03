@@ -1,0 +1,8 @@
+<h1>All the dogs</h1>
+ <% for(var i = 0; i < dogs.length; i++) {%>
+ 	<h4><%=dogs[i].name%></h4>
+ 	<ul>
+ 		<li>Breed: <%= dogs[i].breed %></li>
+ 		<li>Age: <%= dogs[i].age %></li>
+ 	</ul>
+ <% }%>
